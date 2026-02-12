@@ -1693,21 +1693,28 @@ html {
     min-height: auto;
     /* Let content dictate height */
     height: auto;
-    padding-bottom: 10rem;
-    /* Massive space to prevent overlap */
-    padding-top: 140px;
+    padding-bottom: 2rem;
+    /* Minimal bottom space */
+    padding-top: 90px;
+    /* Just barely clear the header */
   }
 
   .hero-title {
-    font-size: 2.8rem;
+    font-size: 2.2rem;
+    /* Smaller title to save vertical space */
+    margin-bottom: 0.5rem;
+  }
+
+  .hero-description {
+    margin-bottom: 1.5rem;
   }
 
   .info-banner-section {
-    margin-top: 3rem;
-    /* Positive margin = NO overlap */
+    margin-top: 1rem;
+    /* Small positive margin */
     position: relative;
     z-index: 5;
-    padding-bottom: 3rem;
+    padding-bottom: 2rem;
   }
 
   .home-info-banner {
