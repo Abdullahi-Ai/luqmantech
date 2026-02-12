@@ -1688,32 +1688,33 @@ html {
 /* =========================================
    LAPTOP & SMALL SCREEN ADJUSTMENTS (Fix Overlap)
    ========================================= */
-@media screen and (max-width: 1366px) {
+@media screen and (max-width: 1600px) {
   .hero {
-    min-height: 80vh;
-    /* Ensure it's tall enough */
-    padding-bottom: 8rem;
-    /* More space at bottom */
-    padding-top: 120px;
+    min-height: auto;
+    /* Let content dictate height */
+    height: auto;
+    padding-bottom: 10rem;
+    /* Massive space to prevent overlap */
+    padding-top: 140px;
   }
 
   .hero-title {
-    font-size: 3rem;
+    font-size: 2.8rem;
   }
 
   .info-banner-section {
-    margin-top: 2rem;
-    /* NO OVERLAP - Force it below the buttons */
+    margin-top: 3rem;
+    /* Positive margin = NO overlap */
     position: relative;
     z-index: 5;
-    padding-bottom: 2rem;
+    padding-bottom: 3rem;
   }
 
   .home-info-banner {
-    padding: 1.5rem;
-    max-width: 900px;
+    padding: 2rem;
+    max-width: 1000px;
     margin: 0 auto;
-    /* Center it */
+    box-shadow: var(--shadow-md);
   }
 }
 
