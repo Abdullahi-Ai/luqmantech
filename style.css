@@ -1690,26 +1690,26 @@ html {
    ========================================= */
 @media screen and (max-width: 1366px) {
   .hero {
-    min-height: auto;
-    /* Allow it to grow naturally */
-    padding-bottom: 6rem;
-    /* Space for the banner overlap */
-    padding-top: 100px;
+    min-height: 80vh;
+    /* Ensure it's tall enough */
+    padding-bottom: 8rem;
+    /* More space at bottom */
+    padding-top: 120px;
   }
 
   .hero-title {
-    font-size: 2.8rem;
-    /* Slightly smaller text to save space */
+    font-size: 3rem;
   }
 
   .info-banner-section {
-    margin-top: -4rem;
-    /* Reduce overlap slightly */
+    margin-top: -30px;
+    /* Much less overlap (push banner down) */
+    position: relative;
+    z-index: 5;
   }
 
   .home-info-banner {
-    padding: 1.5rem;
-    /* More compact banner */
+    padding: 2rem;
   }
 }
 
