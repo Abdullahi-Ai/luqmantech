@@ -1,5 +1,7 @@
 # Luqman Cyber Services Website
 
+**Live Demo:** [https://abdullahi-ai.github.io/luqmantech/](https://abdullahi-ai.github.io/luqmantech/)
+
 Welcome to the official codebase for the Luqman Cyber website. This project is a modern, responsive, and fully static web application designed to showcase our services in Namanga.
 
 ## Project Overview
