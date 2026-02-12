@@ -1,6 +1,7 @@
 # Luqman Cyber Services Website
 
 **Live Demo (GitHub):** [https://abdullahi-ai.github.io/luqmantech/](https://abdullahi-ai.github.io/luqmantech/)
+**Live Demo (Vercel):** [https://luqmantech.vercel.app/](https://luqmantech.vercel.app/)
 
 Welcome to the official codebase for the Luqman Cyber website. This project is a modern, responsive, and fully static web application designed to showcase our services in Namanga.
 
