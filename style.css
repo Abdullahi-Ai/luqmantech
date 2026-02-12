@@ -1702,14 +1702,18 @@ html {
   }
 
   .info-banner-section {
-    margin-top: -30px;
-    /* Much less overlap (push banner down) */
+    margin-top: 2rem;
+    /* NO OVERLAP - Force it below the buttons */
     position: relative;
     z-index: 5;
+    padding-bottom: 2rem;
   }
 
   .home-info-banner {
-    padding: 2rem;
+    padding: 1.5rem;
+    max-width: 900px;
+    margin: 0 auto;
+    /* Center it */
   }
 }
 
